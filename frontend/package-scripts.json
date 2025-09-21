@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev:frontend": "vite",
+    "dev:backend": "cd server && npm run dev",
+    "dev:full": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "setup:backend": "cd server && npm install",
+    "start:backend": "cd server && npm start"
+  }
+}
